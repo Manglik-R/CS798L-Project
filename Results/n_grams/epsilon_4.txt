@@ -1,0 +1,43 @@
+Delta_0 :  300
+Sigma_0 :  3.347811115753273
+Rho_0 :  18.54756451641857
+Length of Deltas :  9
+Length of sigmas :  9
+Length of rhos :  1
+S1 length:  17
+S2 length:  272
+V3 :  4400
+Length of supp_H3 :  4121
+B3 :  2
+Completed 3th iteration
+len(S3) :  2341
+V4 :  25900
+Length of supp_H4 :  22039
+B4 :  1
+Completed 4th iteration
+len(S4) :  4826
+V5 :  26100
+Length of supp_H5 :  23333
+B5 :  5
+Completed 5th iteration
+len(S5) :  6231
+V6 :  23300
+Length of supp_H6 :  19833
+B6 :  10
+Completed 6th iteration
+len(S6) :  6277
+V7 :  17100
+Length of supp_H7 :  15116
+B7 :  9
+Completed 7th iteration
+len(S7) :  5573
+V8 :  13400
+Length of supp_H8 :  10479
+B8 :  15
+Completed 8th iteration
+len(S8) :  4641
+V9 :  9700
+Length of supp_H9 :  7761
+B9 :  7
+Completed 9th iteration
+len(S9) :  3659

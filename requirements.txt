@@ -1,0 +1,4 @@
+numpy
+scipy
+matplotlib
+pickle5; python_version < "3.8"
