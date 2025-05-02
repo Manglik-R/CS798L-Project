@@ -19,13 +19,22 @@ def estimate_valid_k_grams(s1, sk, p):
         w = random.choice(list(sk))
         len_w = len(w.split(" "))
 
+        # if len_w < 2:
+        #     y = w
+        #     z = ""
+        # else:
+        #     y = " ".join(w.rsplit(" ", 1)[:-1])
+        #     z = w.split(" ")[-1]
+
         y = " ".join(w.rsplit(" ", 1)[:-1])
         z = w.split(" ")[-1]
 
 
         xy = x if y == "" else f"{x} {y}"
+        # print(f"x: -{x}-, y: -{y}-, sz: -{z}-, xy: -{xy}-")
 
         if (xy in sk) and (z in s1):
+            # print(f"x: -{x}-, y: -{y}-, sz: -{z}-, xy: -{xy}-")
             count += 1
 
     return int(count / p)
@@ -49,6 +58,7 @@ def check_validity(w, s1, sk):
 
     xy = x if y == "" else f"{x} {y}"
     yz = z if y == "" else f"{y} {z}"
+    # print(f"x: -{x}-, y: -{y}-, z: -{z}-, xy: -{xy}-, yz: -{yz}-")
     if (x in s1) and (z in s1) and (xy in sk) and (yz in sk):
         return True
     else:
